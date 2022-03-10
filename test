@@ -1,0 +1,9 @@
+query {
+	sumRewards(first: 3, orderBy: BLOCKHEIGHT_ASC) {
+		nodes {
+			blockheight
+			id
+			totalReward
+		}
+	}
+}
